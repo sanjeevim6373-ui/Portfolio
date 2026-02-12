@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+        img{
+            border-radius: 50%;
+            width:"150px";
+            height: 150px;
+            margin: 5px;
+            border: solid white;
+            
+
+        }
+
+        nav {
+            background: #555;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background:aqua;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .skills ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        .projects div {
+            background: #eee;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SANJEEVI</h1>
+    <p>Web Developer | Designer | Student</p>
+    <img src="istockphoto-1550071750-612x612.jpg">
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer with an interest in creating clean, responsive, 
+            and user-friendly websites. This portfolio showcases my skills, projects, and achievements.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2></h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (Basics)</li>
+            <li>Responsive Web Design</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal portfolio website using HTML and CSS.</p>
+        </div>
+        <div>
+            <h3>Student Management System</h3>
+            <p>A basic project to manage student records.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: sanjeevim.cs25@bitsthy.ac.in</p>
+        <p>Phone: +91 7418696373</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 sanjeevi.m| Portfolio Website</p>
+</footer>
+
+</body>
+</html>
+>
